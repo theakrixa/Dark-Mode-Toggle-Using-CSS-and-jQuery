@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dark Mode Toggle</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+
+	<div class="toggle">
+		<div class="box">
+			<div class="icon-wrapper active">
+				<div class="sun moon"></div>
+			</div>
+			<div class="icon-wrapper">
+				<svg copy="moon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+					<path d="M187.73 151.4c0-55.24 29.34-104.19 76.27-129.72C242.21 9.81 216.56 3 188.15 3 99.15 3 36.2 70.46 36.2 151.4S98.3 299 187.33 299c28.26 0 53.87-6.82 75.69-18.69-46.48-25.31-75.29-73.8-75.29-128.91z" fill="#283445" />
+				</svg>
+			</div>
+		</div>
+		<div class="bar"></div>
+	</div>
+
+	<div class="card">
+		<div class="image"></div>
+		<div class=text>
+			<p>The film, a remake of Muni 2: Kanchana, was announced in the second half of January 2019 by the director of its original version i.e. Raghava Lawrence with Akshay Kumar in lead role.[7] Principal photography began on 22 April 2019 with the shoot of song "Bismillah". In January 2020, the starcast filmed song "Burj Khalifa" in Dubai. The filming was wrapped up on 1 March 2020.</p>
+			<p>Laxmmi Bomb was scheduled to be released on 22 May 2020,[10] but was postponed due to the COVID-19 pandemic. On 29 June 2020, Disney+ Hotstar conducted virtual press conference where Akshay Kumar announced that the film will release on Disney+ Hotstar exclusively as part of Disney+ Hotstar Multiplex initiative which was a result of theatre shut down due to COVID-19 pandemic.[12] However, it was later decided to release the film in countries where theatres re-opened such as United Arab Emirates, Australia and New Zealand.[13] The official trailer was launched by Disney+Hotstar om 9 October 2020. It was also announced that the film will be released globally on 9 November, near to Diwali.</p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".toggle").click(function(){
+				$(".icon-wrapper").toggleClass("active");
+				$("body, .bar").toggleClass("dark");
+			});
+		});
+	</script>
+
+</body>
+</html>
+
+<!--Thanks For Watching!-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+	<svg copy="moon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+					<path d="M187.73 151.4c0-55.24 29.34-104.19 76.27-129.72C242.21 9.81 216.56 3 188.15 3 99.15 3 36.2 70.46 36.2 151.4S98.3 299 187.33 299c28.26 0 53.87-6.82 75.69-18.69-46.48-25.31-75.29-73.8-75.29-128.91z" fill="#283445" />
+				</svg>
+
+			<p>The film, a remake of Muni 2: Kanchana, was announced in the second half of January 2019 by the director of its original version i.e. Raghava Lawrence with Akshay Kumar in lead role.[7] Principal photography began on 22 April 2019 with the shoot of song "Bismillah". In January 2020, the starcast filmed song "Burj Khalifa" in Dubai. The filming was wrapped up on 1 March 2020.</p>
+			<p>Laxmmi Bomb was scheduled to be released on 22 May 2020,[10] but was postponed due to the COVID-19 pandemic. On 29 June 2020, Disney+ Hotstar conducted virtual press conference where Akshay Kumar announced that the film will release on Disney+ Hotstar exclusively as part of Disney+ Hotstar Multiplex initiative which was a result of theatre shut down due to COVID-19 pandemic.[12] However, it was later decided to release the film in countries where theatres re-opened such as United Arab Emirates, Australia and New Zealand.[13] The official trailer was launched by Disney+Hotstar om 9 October 2020. It was also announced that the film will be released globally on 9 November, near to Diwali.</p>
+-->

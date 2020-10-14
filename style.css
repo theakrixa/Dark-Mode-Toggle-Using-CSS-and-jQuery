@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body.dark{
+	background-color: #161D26;
+}
+
+.toggle{
+	position: fixed;
+	top: 10%;
+	right: 2.5%;
+}
+
+.toggle .box{
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+}
+
+.toggle .box .icon-wrapper{
+	padding: 15px;
+	transition: all 0.3s 0.3s ease;
+}
+
+.toggle .box .sun{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.toggle .box .icon-wrapper:last-child{
+	transform: translateY(-60px);
+}
+
+.toggle .box .active{
+	transition: all 0.1s;
+}
+
+.toggle .box .active:first-child{
+	transform: translateY(60px);
+}
+
+.toggle .box .active:last-child{
+	transform: translateY(0);
+}
+
+.toggle .bar{
+	width: 40%;
+	height: 5px;
+	background-color: black;
+	margin: 0 auto;
+}
+
+.toggle .bar.dark{
+	background-color: #fff;
+}
+
+.card{
+	max-width: 70%;
+	height: 55vh;
+	display: flex;
+	margin: 10% auto;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 25px;
+	overflow: hidden;
+	box-shadow: 2px -1px 30px -8px black;
+}
+
+.card .image{
+	width: 200%;
+	background-image: url("lb.jpg");
+}
+
+.text{
+	padding: 35px;
+	text-align: justify;
+}
+
+.dark p{
+	color: white;
+	transition: all 0.1s ease;
+}
